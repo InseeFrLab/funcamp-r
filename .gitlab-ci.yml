@@ -1,0 +1,19 @@
+stages:
+  - docs
+
+# Builds & deploy docs with mkdocs
+
+pages:
+  stage: docs
+  image: python:slim-buster
+  before_script:
+    - pip install --default-timeout=100 future
+    - pip install mkdocs
+    - pip install mkdocs-windmill
+  script:
+    - mkdocs build
+    #- rm -r public
+    - mv site public
+  artifacts:
+    paths:
+      - public

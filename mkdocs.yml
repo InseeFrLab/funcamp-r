@@ -1,0 +1,20 @@
+site_name: Funcamp R - une expérience vidéoludique d'apprentissage
+site_description: Présentation du Funcamp R
+nav:
+  - 'Accueil du Funcamp R': index.md
+  - 'Jouer et apprendre' : pages/joueurs.md
+  - 'Philosophie du projet' : pages/philosophie.md
+  - 'Espace formateurs' :
+      - 'Principes pédagogiques': pages/formateurs_1.md
+      - 'Trame de formation': pages/formateurs_2.md
+  - 'Espace contributeurs': 
+      - 'Contribuer au développement': pages/contributeurs_1.md
+      - 'le grimoire de tutoriels': pages/contributeurs_2.md
+      - 'le jeu icaRius': pages/contributeurs_3.md
+  - 'Qui sommes nous ?' : pages/credits.md
+markdown_extensions:
+    - toc:
+        toc_depth: 0
+
+theme:
+    name: windmill
