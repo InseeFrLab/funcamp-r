@@ -24,7 +24,7 @@ Le jeu icaRius est une histoire originale (dans tous les sens du terme), qui tou
 
 Pour la **méthode recommandée (pour Windows)**, voici comment procéder :
 
-- téléchargez le jeu en cliquant sur [le lien ici](https://git.lab.sspcloud.fr/lxwgkb/funcamp-r-windows-solarus/-/jobs/artifacts/master/download?job=game-package)
+- téléchargez le jeu en cliquant sur [le lien ici](https://git.lab.sspcloud.fr/funcamp-r/funcamp-r-windows-solarus/-/jobs/artifacts/master/download?job=game-package)
 - le fichier téléchargé s'appelle : icarius-windows.zip  
 - dézipper le contenu à l'endroit de votre choix (par exemple, dans "Mes documents", ou même sur une clé USB) : vous aurez alors un répertoire appelé icaRius.
 - à la fin de l'installation, allez dans le répertoire icaRius, puis double-cliquez sur l'icône solarus-run, qui lancera automatiquement le jeu.
