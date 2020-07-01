@@ -2,7 +2,7 @@
 
 **Attention spoiler** : la trame pédagogique est présentée de concert avec l'habillage narratif :-)
 
-**Pour la solution des énigmes du grimoire** : pour les tricheurs ou les joueurs pressés, ces dernières sont consultables directement sur les premières lignes du fichier [strings.dat](https://git.lab.sspcloud.fr/lxwgkb/funcamp-r-icarius/-/blob/master/data/languages/fr/text/strings.dat). Par exemple, pour le tutoriel XX, il s'agit de la valeur "la_solution" indiquée dans le paramètre `value = ` qui figure dans la ligne `text{ key = "igor_answers.chapterXX_answer1", value = "la_solution" }`
+**Pour la solution des énigmes du grimoire** : pour les tricheurs ou les joueurs pressés, ces dernières sont consultables directement sur les premières lignes du fichier [strings.dat](https://git.lab.sspcloud.fr/funcamp-r/funcamp-r-icarius/-/blob/master/data/languages/fr/text/strings.dat). Par exemple, pour le tutoriel XX, il s'agit de la valeur "la_solution" indiquée dans le paramètre `value = ` qui figure dans la ligne `text{ key = "igor_answers.chapterXX_answer1", value = "la_solution" }`
 
 
 ## Enigme 1 – la maison d’icaRius
