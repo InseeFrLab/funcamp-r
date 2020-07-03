@@ -36,7 +36,7 @@ Pour la **méthode recommandée (pour Windows)**, voici comment procéder :
 
 Pour la **méthode expérimentale (en ligne)**, voici les étapes :
 
-- accédez à la plateforme Spyrales pour vous inscrire sur [spyrales.sspcloud.fr](spyrales.sspcloud.fr)
+- accédez à la plateforme Spyrales pour vous inscrire sur [spyrales.sspcloud.fr](https://spyrales.sspcloud.fr/)
 - ouvrez le [catalogue de services](https://spyrales.sspcloud.fr/my-lab/catalogue/inseefrlab-catalog-wip) qui comprend le Funcamp R 
 - vous voyez deux services : icarius (le jeu) et grimoire (les tutoriels)
 - cliquez sur l'icône en forme de + pour icarius
@@ -62,7 +62,7 @@ Pour ouvrir un chapitre du grimoire, il y a, la aussi, deux méthodes :
 
 ### Ouvrir un chapitre du grimoire en ligne...
 
-- accédez à la plateforme Spyrales pour vous inscrire sur [spyrales.sspcloud.fr](spyrales.sspcloud.fr)
+- accédez à la plateforme Spyrales pour vous inscrire sur [spyrales.sspcloud.fr](https://spyrales.sspcloud.fr/)
 - ouvrez le [catalogue de services](https://spyrales.sspcloud.fr/my-lab/catalogue/inseefrlab-catalog-wip) qui comprend le Funcamp R 
 - vous voyez deux services : icarius (le jeu) et grimoire (les tutoriels)
 - cliquez sur l'icône en forme de + pour le grimoire
