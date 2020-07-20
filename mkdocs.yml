@@ -11,6 +11,7 @@ nav:
       - 'Contribuer au développement': pages/contributeurs_1.md
       - 'le grimoire de tutoriels': pages/contributeurs_2.md
       - 'le jeu icaRius': pages/contributeurs_3.md
+  - 'Solution complète' : pages/solution.md
   - 'Qui sommes nous ?' : pages/credits.md
 markdown_extensions:
     - toc:
