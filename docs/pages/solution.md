@@ -20,7 +20,7 @@ Le village de GrissGrass, la rencontre du chef Xeilhac et des fermiers (chapitre
 
 Le château de Statis, le chef des armées Parlyus, la rencontre du cuistot Batreb (chapitre 5), la fake news avec Essespéus (chapitre 6), premier affrontement contre SaSSoS (rune n°3).
 
-Lien à venir
+<iframe width="560" height="315" src="https://www.youtube.com/embed/Q-bRPdYyu5Y" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
 ## La traversée du désert
 
