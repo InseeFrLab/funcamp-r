@@ -12,7 +12,6 @@ pages:
     - pip install mkdocs-windmill
   script:
     - mkdocs build
-    #- rm -r public
     - mv site public
   artifacts:
     paths:
