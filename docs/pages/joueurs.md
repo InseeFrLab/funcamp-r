@@ -5,7 +5,7 @@ L'aventure vidéoludique que nous vous proposons de suivre via le Funcamp R se c
 - d'une part, **un jeu vidéo** (oui, comme quoi, on peut jouer pendant qu'on travaille).
 - d'autre part, **des tutoriels R** (oui, comme quoi, on peut se former pendant qu'on joue)
 
-Pour le funcamp, il vous faudra utiliser les deux environnements. Ces derniers peuvent soit être installés directement sur votre poste de travail, soit être utilisé en ligne (en mode Cloud, pour faire chic). Nous allons vous guider pour accéder à ces éléments.
+Pour le funcamp, il vous faudra utiliser les deux environnements. Ces derniers peuvent soit être installés directement sur votre poste de travail, soit être utilisés en ligne (en mode Cloud, pour faire chic). Nous allons vous guider pour accéder à ces éléments.
 
 
 ## icaRius, un jeu vidéo d'apprentissage
@@ -17,14 +17,14 @@ Le jeu icaRius est une histoire originale (dans tous les sens du terme), qui tou
 **Pour accéder au jeu**, il y a deux méthodes :
 
 - méthode recommandée : il est préférable d'installer directement le jeu sur votre poste (sous Windows 7 ou 10). Ce dernier ne comporte aucune publicité indésirable et peut être supprimé à tout instant. Cette installation vous permettra de bénéficier d'une expérience optimale, avec les musiques du jeu et des animations plus fluides.
-- méthode expérimentale : il est également possible de jouer au jeu "en ligne", via la plateforme Spyrales. Ce mode de jeu ne permet pas, à ce jour, d'avoir du son (quel dommage...). Les animations peuvent également être saccadées. Mais cela reste jouable et amusant !
+- méthode expérimentale : il est également possible de jouer au jeu "en ligne", via la plateforme SSPCloud. Ce mode de jeu ne permet pas, à ce jour, d'avoir du son (quel dommage...). Les animations peuvent également être saccadées. Mais cela reste jouable et amusant !
 
 
 ### Installer Icarius sur votre poste...
 
 Pour la **méthode recommandée (pour Windows)**, voici comment procéder :
 
-- téléchargez le jeu en cliquant sur [le lien ici](https://git.lab.sspcloud.fr/funcamp-r/funcamp-r-windows-solarus/-/jobs/artifacts/master/download?job=game-package)
+- téléchargez le jeu en cliquant sur [le lien ici](https://minio.lab.sspcloud.fr/funcampr/icaRius-windows.zip)
 - le fichier téléchargé s'appelle : icarius-windows.zip  
 - dézipper le contenu à l'endroit de votre choix (par exemple, dans "Mes documents", ou même sur une clé USB) : vous aurez alors un répertoire appelé icaRius.
 - à la fin de l'installation, allez dans le répertoire icaRius, puis double-cliquez sur l'icône solarus-run, qui lancera automatiquement le jeu.
@@ -36,10 +36,12 @@ Pour la **méthode recommandée (pour Windows)**, voici comment procéder :
 
 Pour la **méthode expérimentale (en ligne)**, voici les étapes :
 
-- accédez à la plateforme Spyrales pour vous inscrire sur [spyrales.sspcloud.fr](https://spyrales.sspcloud.fr/)
-- ouvrez le [catalogue de services](https://spyrales.sspcloud.fr/my-lab/catalogue/inseefrlab-catalog-wip) qui comprend le Funcamp R 
-- vous voyez deux services : icarius (le jeu) et grimoire (les tutoriels)
-- cliquez sur l'icône en forme de + pour icarius
+- accédez à la plateforme SSPCloud pour vous inscrire sur [datalab.sspcloud.fr](https://datalab.sspcloud.fr)
+- en cliquant en haut à gauche, ouvrez un menu pour accéder à de multiples services...
+- ... dont le [catalogue de formation](https://datalab.sspcloud.fr/trainings) qui comprend le Funcamp R 
+- cliquez sur l'icône en forme de rond (...) pour ouvrir le parcours Funcamp R
+- vous verrez apparaître toutes les étapes du parcours, à commencer par le jeu icaRius.
+- cliquez sur l'icône en forme de rouage.
 - cliquez sur "Créer votre service". Vous verrez des rouages s'activer.
 - au bout de quelques dizaines de seconde, les rouages disparaissent : le service est créé !
 - cliquer sur l'icône en forme de clef à molette
@@ -48,6 +50,7 @@ Pour la **méthode expérimentale (en ligne)**, voici les étapes :
 - vous voilà sur un environnement virtuel : il faut renseigner le mot de passe précédemment copié...
 - dans cet environnement virtuel, l'icône du jeu icaRius apparaît à l'écran : double-cliquez, et jouez !!!
 
+Bon, c'est beaucoup plus simple à faire qu'à lire - la preuve en vidéo :
 <iframe width="560" height="315" src="https://www.youtube.com/embed/mwQJxiZM0go" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
 
@@ -57,22 +60,23 @@ Au fur et à mesure de votre exploration du jeu icaRius, vous serez amené(e) à
 
 Pour ouvrir un chapitre du grimoire, il y a, la aussi, deux méthodes :
 
-- méthode recommandée : cette fois, nous vous recommander de résoudre les énigmes directement "en ligne", via la plateforme Spyrales. Cela vous évitera de télécharger un ensemble de programmes un peu volumineux : tout se passera directement, en quelques lignes, sur votre navigateur internet.
+- méthode recommandée : cette fois, nous vous recommandons de résoudre les énigmes directement "en ligne", via la plateforme SSPCloud. Cela vous évitera de télécharger un ensemble de programmes un peu volumineux : tout se passera directement, en quelques lignes, sur votre navigateur internet.
 - méthode complémentaire : il est également possible de télécharger le grimoire et tous les logiciels nécessaires, pour lancer les tutoriels depuis votre poste. 
 
 ### Ouvrir un chapitre du grimoire en ligne...
 
-- accédez à la plateforme Spyrales pour vous inscrire sur [spyrales.sspcloud.fr](https://spyrales.sspcloud.fr/)
-- ouvrez le [catalogue de services](https://spyrales.sspcloud.fr/my-lab/catalogue/inseefrlab-catalog-wip) qui comprend le Funcamp R 
-- vous voyez deux services : icarius (le jeu) et grimoire (les tutoriels)
-- cliquez sur l'icône en forme de + pour le grimoire
-- dans le bandeau de couleur bleue, choisissez "grimoire". A cet endroit, vous pouvez choisir le chapitre que vous voulez ouvrir via un menu déroulant.
-- une fois le chapitre choisi, cliquez sur "Créer votre service". Vous verrez des rouages s'activer.
+- accédez à la plateforme SSPCloud pour vous inscrire sur [datalab.sspcloud.fr](https://datalab.sspcloud.fr)
+- en cliquant en haut à gauche, ouvrez un menu pour accéder à de multiples services...
+- ... dont le [catalogue de formation](https://datalab.sspcloud.fr/trainings) qui comprend le Funcamp R 
+- cliquez sur l'icône en forme de rond (...) pour ouvrir le parcours Funcamp R
+- vous verrez apparaître toutes les étapes du parcours : outre le jeu icaRius, un item pour chaque chapitre du grimoire (chaque tutoriel)
+- choisissez votre tutoriel et cliquez sur l'icône en forme de rouage.
+- cliquez sur "Créer votre service". Vous verrez des rouages s'activer.
 - au bout de quelques dizaines de seconde, les rouages disparaissent : le service est créé !
 - cliquer sur l'icône avec une flèche
 - le chapitre va s'ouvrir dans un nouvel onglet dans votre navigateur.
 - il est possible que vous ayez une page indiquant que le service n'est pas disponible. Laissez la page affichée pendant quelques dizaines de seconde, et le tutoriel devrait apparaître (il peut en effet y avoir des délais de chargement).
-- à la fin d'un chapitre, n'oubliez pas de cliquer sur l'icône en forme de corbeille sur la page Spyrales : cela permet de refermer le grimoire (et d'économiser un peu de puissance sur les serveurs : un geste vert, en sorte).
+- à la fin d'un chapitre, n'oubliez pas de cliquer sur l'icône en forme de corbeille sur la page SSPCloud : cela permet de refermer le grimoire (et d'économiser un peu de puissance sur les serveurs : un geste vert, en sorte).
 
 
 ### ... ou télécharger le grimoire sur votre poste
