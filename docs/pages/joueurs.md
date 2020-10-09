@@ -79,7 +79,19 @@ Pour ouvrir un chapitre du grimoire, il y a, la aussi, deux méthodes :
 - à la fin d'un chapitre, n'oubliez pas de cliquer sur l'icône en forme de corbeille sur la page SSPCloud : cela permet de refermer le grimoire (et d'économiser un peu de puissance sur les serveurs : un geste vert, en sorte).
 
 
-### ... ou télécharger le grimoire sur votre poste
+### ... ou télécharger le grimoire complet (et le jeu avec) sur votre poste
 
-- à rédiger
+Vous pouvez également installer l'ensemble du grimoire sur votre poste. Ce faisant, vous aurez en même le jeu vidéo également installé (pratique !). voici comment procéder :
+
+- téléchargez le grimoire et le jeu en cliquant sur [le lien ici](https://minio.lab.sspcloud.fr/funcampr/funcampr.zip)
+- ça va prendre un peu de temps : patience (environ 500 mo à télécharger)
+- le fichier téléchargé s'appelle : funcampr.zip  
+- dézipper le contenu à l'endroit de votre choix (par exemple, sur une clé USB) : vous aurez alors un répertoire appelé icaRius.
+- il faut un peu de place, désolé pour l'encombrement (1,5 go environ)
+- à la fin de l'installation, allez dans le répertoire funcampR, puis double-cliquez sur l'icône START_grimoire, qui lancera automatiquement une page d'accueil.
+- cette page d'accueil comporte le lien vers chaque chapitre du grimoire, et aussi vers le jeu : laissez-vous guider !
+- attention, il faut veiller à ce que le chemin d'installation de votre répertoire ne comporte pas d'espace blanc. Par exemple, F:\MonRepertoire\funcampr  fonctionnera, mais pas F:\Mon Repertoire\funcampr
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/44b7bTG601I" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
 
