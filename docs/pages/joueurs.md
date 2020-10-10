@@ -36,7 +36,7 @@ Vous pouvez installer ensemble le jeu et le grimoire sur votre poste Windows. Vo
 - cette page d'accueil comporte le lien vers chaque chapitre du grimoire, et aussi vers le jeu : laissez-vous guider !
 - attention, il faut veiller à ce que le chemin d'installation de votre répertoire ne comporte pas d'espace blanc. Par exemple, F:\MonRepertoire\funcampr  fonctionnera, mais pas F:\Mon Repertoire\funcampr
 
-<iframe width="2855" height="1163" src="https://www.youtube.com/embed/AeqowV196ag" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+<iframe width="560" height="315" src="https://www.youtube.com/embed/AeqowV196ag" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
 Vous pouvez aussi ne télécharger que le jeu, beaucoup plus léger (seulement 30 mo) et utiliser la version en ligne du grimoire pour les tutoriels. Si vous ne voulez installer que le jeu, voici comment procéder :
 
