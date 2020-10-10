@@ -81,5 +81,5 @@ Pour lancer un tutoriel
 - à la fin d'un chapitre, n'oubliez pas de cliquer sur l'icône en forme de corbeille sur la page SSPCloud : cela permet de refermer le grimoire (et d'économiser un peu de puissance sur les serveurs : un geste vert, en sorte).
 
 Bon, c'est beaucoup plus simple à faire qu'à lire - la preuve en vidéo :
-<iframe width="560" height="315" src="https://www.youtube.com/embed/mwQJxiZM0go" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+<iframe width="560" height="315" src="https://www.youtube.com/embed/-C3J3KbPXpg" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
