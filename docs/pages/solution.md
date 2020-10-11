@@ -26,7 +26,7 @@ Le château de Statis, le chef des armées Parlyus, la rencontre du cuistot Batr
 
 L'entrée dans le désert et le passage du labyrinthe avec Delagarde (chapitre 7), la plume d'Igor (chapitre 8).
 
-Lien à venir
+<iframe width="560" height="315" src="https://www.youtube.com/embed/VWYOlLlA4cg" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
 ## Le village de Sandia et la salle de l'impossible
 
