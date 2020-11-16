@@ -1,0 +1,3 @@
+future
+mkdocs
+mkdocs-windmill
