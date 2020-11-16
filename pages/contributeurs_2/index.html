@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  
+  
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    
+    
+    
+    <link rel="shortcut icon" href="../../img/favicon.ico">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0" />
+    <title>le grimoire de tutoriels - Funcamp R - une expérience vidéoludique d'apprentissage</title>
+    <link href="../../css/bootstrap-3.3.7.min.css" rel="stylesheet">
+    <link href="../../css/font-awesome-4.7.0.css" rel="stylesheet">
+    <link href="../../css/base.css" rel="stylesheet">
+    <link rel="stylesheet" href="../../css/highlight.css">
+    <!-- HTML5 shim and Respond.js IE8 support of HTML5 elements and media queries -->
+    <!--[if lt IE 9]>
+        <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
+        <script src="https://oss.maxcdn.com/libs/respond.js/1.3.0/respond.min.js"></script>
+    <![endif]-->
+
+    <script src="../../js/jquery-3.2.1.min.js"></script>
+    <script src="../../js/bootstrap-3.3.7.min.js"></script>
+    <script src="../../js/highlight.pack.js"></script>
+    
+    <base target="_top">
+    <script>
+      var base_url = '../..';
+      var is_top_frame = false;
+        
+        var pageToc = [
+        ];
+
+    </script>
+    <script src="../../js/base.js"></script> 
+</head>
+
+<body>
+<script>
+if (is_top_frame) { $('body').addClass('wm-top-page'); }
+</script>
+
+
+
+<div class="container-fluid wm-page-content">
+  <a name="_top"></a>
+    
+
+    
+    
+      
+    
+
+  <div class="row wm-article-nav-buttons" role="navigation" aria-label="navigation">
+    
+    <div class="wm-article-nav pull-right">
+      <a href="../contributeurs_3/" class="btn btn-xs btn-default pull-right">
+        Next
+        <i class="fa fa-chevron-right" aria-hidden="true"></i>
+      </a>
+      <a href="../contributeurs_3/" class="btn btn-xs btn-link">
+        le jeu icaRius
+      </a>
+    </div>
+    
+    <div class="wm-article-nav">
+      <a href="../contributeurs_1/" class="btn btn-xs btn-default pull-left">
+        <i class="fa fa-chevron-left" aria-hidden="true"></i>
+        Previous</a><a href="../contributeurs_1/" class="btn btn-xs btn-link">
+        Contribuer au développement
+      </a>
+    </div>
+    
+  </div>
+
+    
+
+    <h2>le grimoire</h2>
+<p>Le grimoire (appelé grimoire IGoR dans le jeu icaRius) se constitue d'une collection de tutoriels établis en Rmarkdown, eux-mêmes réunis sous la forme d'un package FuncampR. La quasi totalité des tutoriels utilisent le package learnr pour proposer des exercices appliqués, dans lequel le stagiaire accède à une console pour apprendre la syntaxe R et exécuter du code en ligne. Certains d'entre eux utilisent en outre le package parsons, pour apprendre à composer les segments d'un traitement en R en les assemblant comme les pièces d'un puzzle. Les tutoriels avec learnr et parsons sont orchestrés en runtime:shiny_prerendered. <em>A noter qu'un tutoriel fait exception : dédié à l'apprentissage des méthodes de documentation d'un code, il mobilise le package shinyAce et se trouve orchestré en runtime:shiny (voir chapitre 12).</em></p>
+<h3>Structuration du package</h3>
+<p>Le package est structuré de la façon suivante :</p>
+<ul>
+<li>répertoire <code>inst</code> : il est lui même composé du sous-répertoire <code>learnr</code> regroupant l'ensemble des tutoriels, et du sous-répertoire <code>data</code> regroupant les fichiers de données utilisées pour les tutoriels. Chaque tutoriel est présenté comme un "chapitre" du grimoire (et se trouve positionné dans un sous-répertoire de type <code>chapitreXX</code>).</li>
+<li>répertoire <code>R</code> : s'y trouve le programme code.R, qui permet :
+-- de scanner l'ensemble des fichiers Rmd éligibles à être proposés comme tutoriel (fonction <code>tous_les_programmes()</code>)
+-- de lancer un support Rmd (fonction <code>launch_learn()</code>)</li>
+<li>répertoire <code>man</code> : documentation des fonctions citées supra. </li>
+</ul>
+<h3>Fonctionnalités pour les exercices</h3>
+<p>L'utilisation du package learnr permet de proposer des exercices interactifs, avec une console R intégrée, pour laquelle il est possible de faire apparaître une solution en aide au stagiaire</p>
+<p><img alt="image funcamp" src="../../images/exercice1.png" /></p>
+<p>Des quizz sont également proposés : à la fin de chaque tutoriel, ils permettent de vérifier que le stagiaire a résolu l'énigme, et de lui confirmer la réponse à renseigner dans le jeu icaRius.</p>
+<p><img alt="image funcamp" src="../../images/exercice2.png" /></p>
+<p>Enfin, le package parsons propose des exercices sous forme de "puzzle", mettant l'accent sur le bon ordonnancement des briques d'un traitement.</p>
+<p><img alt="image funcamp" src="../../images/exercice3.png" /></p>
+
+  <br>
+    
+
+    
+    
+      
+    
+
+  <div class="row wm-article-nav-buttons" role="navigation" aria-label="navigation">
+    
+    <div class="wm-article-nav pull-right">
+      <a href="../contributeurs_3/" class="btn btn-xs btn-default pull-right">
+        Next
+        <i class="fa fa-chevron-right" aria-hidden="true"></i>
+      </a>
+      <a href="../contributeurs_3/" class="btn btn-xs btn-link">
+        le jeu icaRius
+      </a>
+    </div>
+    
+    <div class="wm-article-nav">
+      <a href="../contributeurs_1/" class="btn btn-xs btn-default pull-left">
+        <i class="fa fa-chevron-left" aria-hidden="true"></i>
+        Previous</a><a href="../contributeurs_1/" class="btn btn-xs btn-link">
+        Contribuer au développement
+      </a>
+    </div>
+    
+  </div>
+
+    <br>
+</div>
+
+<footer class="container-fluid wm-page-content">
+  <p>Documentation built with <a href="http://www.mkdocs.org/">MkDocs</a> using <a href="https://github.com/gristlabs/mkdocs-windmill">Windmill</a> theme by Grist Labs.</p>
+</footer>
+
+</body>
+</html>

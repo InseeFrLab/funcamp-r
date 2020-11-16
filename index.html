@@ -1,0 +1,216 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  
+  
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Présentation du Funcamp R">
+    
+    
+    <link rel="shortcut icon" href="./img/favicon.ico">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0" />
+    <title>Funcamp R - une expérience vidéoludique d'apprentissage</title>
+    <link href="./css/bootstrap-3.3.7.min.css" rel="stylesheet">
+    <link href="./css/font-awesome-4.7.0.css" rel="stylesheet">
+    <link href="./css/base.css" rel="stylesheet">
+    <link rel="stylesheet" href="./css/highlight.css">
+    <!-- HTML5 shim and Respond.js IE8 support of HTML5 elements and media queries -->
+    <!--[if lt IE 9]>
+        <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
+        <script src="https://oss.maxcdn.com/libs/respond.js/1.3.0/respond.min.js"></script>
+    <![endif]-->
+
+    <script src="./js/jquery-3.2.1.min.js"></script>
+    <script src="./js/bootstrap-3.3.7.min.js"></script>
+    <script src="./js/highlight.pack.js"></script>
+    
+      <script src="./js/elasticlunr.min.js"></script>
+    
+    <base target="_top">
+    <script>
+      var base_url = '.';
+      var is_top_frame = (window === window.parent);
+        
+        var pageToc = [
+        ];
+
+    </script>
+    <script src="./js/base.js"></script> 
+</head>
+
+<body>
+<script>
+if (is_top_frame) { $('body').addClass('wm-top-page'); }
+</script>
+
+<nav class="navbar wm-page-top-frame">
+  <div class="container-fluid wm-top-container">
+    
+    <div class="wm-top-tool pull-right wm-vcenter">
+      <form class="dropdown wm-vcentered" id="wm-search-form" action="./search.html">
+        
+        <button id="wm-search-show" class="btn btn-sm btn-default" type="submit"
+          ><i class="fa fa-search" aria-hidden="true"></i></button>
+
+        <div class="input-group input-group-sm wm-top-search">
+          <input type="text" name="q" class="form-control" id="mkdocs-search-query" placeholder="Search" autocomplete="off">
+          <span class="input-group-btn" role="search">
+            
+            <button class="btn btn-default dropdown-toggle collapse" data-toggle="dropdown" type="button"><span class="caret"></span></button>
+            <ul id="mkdocs-search-results" class="dropdown-menu dropdown-menu-right"></ul>
+            <button id="wm-search-go" class="btn btn-default" type="submit"><i class="fa fa-search" aria-hidden="true"></i></button>
+          </span>
+        </div>
+      </form>
+    </div>
+
+    
+    <div class="wm-top-tool wm-vcenter pull-right wm-small-left">
+      <button id="wm-toc-button" type="button" class="btn btn-sm btn-default wm-vcentered"><i class="fa fa-th-list" aria-hidden="true"></i></button>
+    </div>
+
+    
+    
+
+    
+    <a href="" class="wm-top-brand wm-top-link wm-vcenter">
+      
+      <div class="wm-top-title">
+        Funcamp R - une expérience vidéoludique d'apprentissage<br>
+        
+      </div>
+    </a>
+  </div>
+</nav>
+
+  <div id="main-content" class="wm-page-top-frame">
+    
+<nav class="wm-toc-pane">
+  
+  <ul class="wm-toctree">
+        <li class="wm-toc-li wm-toc-lev1 "><a href="" class="wm-article-link wm-toc-text">Accueil du Funcamp R</a>
+</li>
+        <li class="wm-toc-li wm-toc-lev1 "><a href="pages/joueurs/" class="wm-article-link wm-toc-text">Jouer et apprendre</a>
+</li>
+        <li class="wm-toc-li wm-toc-lev1 "><a href="pages/philosophie/" class="wm-article-link wm-toc-text">Philosophie du projet</a>
+</li>
+        <li class="wm-toc-li wm-toc-lev1 wm-toc-opener"><span class="wm-toc-text">Espace formateurs</span>
+</li>
+<li class="wm-toc-li-nested collapse">
+  <ul class="wm-toctree">
+      <li class="wm-toc-li wm-toc-lev2 "><a href="pages/formateurs_1/" class="wm-article-link wm-toc-text">Principes pédagogiques</a>
+</li>
+      <li class="wm-toc-li wm-toc-lev2 "><a href="pages/formateurs_2/" class="wm-article-link wm-toc-text">Trame de formation</a>
+</li>
+  </ul>
+</li>
+
+        <li class="wm-toc-li wm-toc-lev1 wm-toc-opener"><span class="wm-toc-text">Espace contributeurs</span>
+</li>
+<li class="wm-toc-li-nested collapse">
+  <ul class="wm-toctree">
+      <li class="wm-toc-li wm-toc-lev2 "><a href="pages/contributeurs_1/" class="wm-article-link wm-toc-text">Contribuer au développement</a>
+</li>
+      <li class="wm-toc-li wm-toc-lev2 "><a href="pages/contributeurs_2/" class="wm-article-link wm-toc-text">le grimoire de tutoriels</a>
+</li>
+      <li class="wm-toc-li wm-toc-lev2 "><a href="pages/contributeurs_3/" class="wm-article-link wm-toc-text">le jeu icaRius</a>
+</li>
+  </ul>
+</li>
+
+        <li class="wm-toc-li wm-toc-lev1 "><a href="pages/solution/" class="wm-article-link wm-toc-text">Solution complète</a>
+</li>
+        <li class="wm-toc-li wm-toc-lev1 "><a href="pages/credits/" class="wm-article-link wm-toc-text">Qui sommes nous ?</a>
+</li>
+  </ul>
+</nav>
+
+    <div class="wm-content-pane">
+      <iframe class="wm-article" name="article"></iframe>
+    </div>
+  </div>
+
+<div class="container-fluid wm-page-content">
+  <a name="_top"></a>
+    
+
+    
+    
+      
+    
+
+  <div class="row wm-article-nav-buttons" role="navigation" aria-label="navigation">
+    
+    <div class="wm-article-nav pull-right">
+      <a href="pages/joueurs/" class="btn btn-xs btn-default pull-right">
+        Next
+        <i class="fa fa-chevron-right" aria-hidden="true"></i>
+      </a>
+      <a href="pages/joueurs/" class="btn btn-xs btn-link">
+        Jouer et apprendre
+      </a>
+    </div>
+    
+  </div>
+
+    
+
+    <h1>Funcamp R - Accueil</h1>
+<p>Soyez le/la bienvenu(e) au Funcamp R. Ce site rassemble l'ensemble des supports pédagogiques et ludiques relatifs à la formation que vous vous apprêtez à suivre. Pardon : cette page ouvre le grimoire IGoR, qui vous accompagnera dans <strong>l’épopée statistico-ludique dont vous êtes le héros / l’héroïne</strong>. Vous y trouverez, distillée au fur et à mesure des chapitres enluminés, toute la sagesse accumulée par ces mages qui, dans l’ombre, ont imaginé les épreuves que vous aurez à franchir.<br>
+<br>
+<img src="images/icarius_startscreen.png" height="220"> <img src="images/enigme02.png" height="220">
+<br>
+Parcourir ce grimoire vous permettra d’<strong>apprendre, pas à pas, le langage des Runes</strong>, nécessaire pour aider le jeune icaRius, votre alter-ego numérique, à sauver le royaume de Statis de la menace qui le guette. Au cours de cette aventure, il vous sera ainsi demandé de <strong>résoudre des énigmes</strong>, dont la solution vous permettra d’avancer un peu plus loin dans les terres de Statis. Ces énigmes sont autant d’étapes pour découvrir les possibilités (magiques!) offertes par R. La solution sera ensuite à renseigner dans l’écran du jeu icaRius, prévu à cet effet.</p>
+<iframe width="560" height="315" src="https://www.youtube.com/embed/Quz2CfF0gmo" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
+<p>Le Funcamp R s'adresse avant tout à celles et ceux qui, <strong>petits et grands débutants en R</strong>, souhaitent inscrire leur apprentissage dans une démarche amusante, où des phases de jeu et des phases de pratiques en R alternent. Il a été conçu pour <strong>les agents du système statistique public</strong>, qui retrouveront dans l'aventure d'icaRius quelques clins d'oeil à leur environnement professionnel - tous peuvent néanmoins s'essayer à ce parcours pédagogique, même sans travailler à l'Insee ou dans un service statistique ministériel. La composante dédiée aux techniques statistiques est délibèrement très restreinte : il s'agit surtout d'apprendre à maîtriser le cadre général de l'environnement R, d'autres formations plus avancées répondant aux besoins des statisticiens avertis.
+<br>
+<strong>Désireux de vous lancer dans l'aventure d'icaRius ?</strong> Consulter la page <a href="pages/joueurs/">Jouer (et apprendre)</a>, qui vous présente les différentes façons d'accéder au jeu et aux tutoriels R. 
+<br>
+<img src="images/icarius-visuel-a.png" height="220"> <img src="images/icarius-visuel-b.png" height="220">
+<br>
+Cet espace propose également, pour les esprits curieux, des informations complémentaires :</p>
+<ul>
+<li>la <a href="pages/philosophie/">philosophie du projet</a>, son histoire, ses acteurs... et son possible devenir ! </li>
+<li>pour les formateurs, un espace dédié aux <a href="pages/formateurs_1/">principes pédagogiques</a> et à la présentation de la <a href="pages/formateurs_2/">trame suivie</a>. </li>
+<li>pour les développeurs, un ensemble de ressources pour <a href="pages/contributeurs_1/">contribuer au développement</a> du <a href="pages/contributeurs_2/">grimoire de tutoriels R</a> et du <a href="pages/contributeurs_3/">jeu icaRius</a>.</li>
+<li>l'identité des <a href="pages/credits/">auteurs de cette aventure</a> : la présentation de l'équipe de conception du Funcamp R, et des acteurs qui nous ont aidés.</li>
+</ul>
+
+  <br>
+    
+
+    
+    
+      
+    
+
+  <div class="row wm-article-nav-buttons" role="navigation" aria-label="navigation">
+    
+    <div class="wm-article-nav pull-right">
+      <a href="pages/joueurs/" class="btn btn-xs btn-default pull-right">
+        Next
+        <i class="fa fa-chevron-right" aria-hidden="true"></i>
+      </a>
+      <a href="pages/joueurs/" class="btn btn-xs btn-link">
+        Jouer et apprendre
+      </a>
+    </div>
+    
+  </div>
+
+    <br>
+</div>
+
+<footer class="container-fluid wm-page-content">
+  <p>Documentation built with <a href="http://www.mkdocs.org/">MkDocs</a> using <a href="https://github.com/gristlabs/mkdocs-windmill">Windmill</a> theme by Grist Labs.</p>
+</footer>
+
+</body>
+</html>
+<!--
+MkDocs version : 1.1.2
+Build Date UTC : 2020-11-16 22:21:40.200421+00:00
+-->

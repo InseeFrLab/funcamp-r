@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  
+  
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    
+    
+    
+    <link rel="shortcut icon" href="../../img/favicon.ico">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0" />
+    <title>le jeu icaRius - Funcamp R - une expérience vidéoludique d'apprentissage</title>
+    <link href="../../css/bootstrap-3.3.7.min.css" rel="stylesheet">
+    <link href="../../css/font-awesome-4.7.0.css" rel="stylesheet">
+    <link href="../../css/base.css" rel="stylesheet">
+    <link rel="stylesheet" href="../../css/highlight.css">
+    <!-- HTML5 shim and Respond.js IE8 support of HTML5 elements and media queries -->
+    <!--[if lt IE 9]>
+        <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
+        <script src="https://oss.maxcdn.com/libs/respond.js/1.3.0/respond.min.js"></script>
+    <![endif]-->
+
+    <script src="../../js/jquery-3.2.1.min.js"></script>
+    <script src="../../js/bootstrap-3.3.7.min.js"></script>
+    <script src="../../js/highlight.pack.js"></script>
+    
+    <base target="_top">
+    <script>
+      var base_url = '../..';
+      var is_top_frame = false;
+        
+        var pageToc = [
+        ];
+
+    </script>
+    <script src="../../js/base.js"></script> 
+</head>
+
+<body>
+<script>
+if (is_top_frame) { $('body').addClass('wm-top-page'); }
+</script>
+
+
+
+<div class="container-fluid wm-page-content">
+  <a name="_top"></a>
+    
+
+    
+    
+      
+    
+
+  <div class="row wm-article-nav-buttons" role="navigation" aria-label="navigation">
+    
+    <div class="wm-article-nav pull-right">
+      <a href="../solution/" class="btn btn-xs btn-default pull-right">
+        Next
+        <i class="fa fa-chevron-right" aria-hidden="true"></i>
+      </a>
+      <a href="../solution/" class="btn btn-xs btn-link">
+        Solution complète
+      </a>
+    </div>
+    
+    <div class="wm-article-nav">
+      <a href="../contributeurs_2/" class="btn btn-xs btn-default pull-left">
+        <i class="fa fa-chevron-left" aria-hidden="true"></i>
+        Previous</a><a href="../contributeurs_2/" class="btn btn-xs btn-link">
+        le grimoire de tutoriels
+      </a>
+    </div>
+    
+  </div>
+
+    
+
+    <h2>le jeu icaRius et le moteur solarus</h2>
+<p>Solarus est un moteur de jeu Open Source, spécifiquement conçu pour créer des "role playing games" (RPG) en 2D, à l'image de <em>The Legend of Zelda: A Link to the Past</em> ou <em>Secret of Mana</em> sur Super Nintendo. Le site <a href="https://www.solarus-games.org/">solarus-games</a> permet d'accèder à l'ensemble des ressources nécessaires pour programmer avec le moteur Solarus : le moteur de jeu, les packs de ressources (ensemble de graphismes appelés tilesets, exemples de script), les tutoriels...</p>
+<p>Le moteur Solarus est codé en C++, avec la bibliothèque SDL et un backend OpenGL. Les jeux faits avec Solarus sont appelés des quêtes et sont faits en Lua. Pour "jouer" les quêtes, il suffit de télécharger le <a href="https://www.solarus-games.org/fr/solarus/download">runner Solarus</a>. Mais pour développer sa propre quête ou pour contribuer à l'édition d'une quête dans une optique communautaire, il vous faudra installer le <a href="https://www.solarus-games.org/fr/solarus/download">Solarus Quest Editor</a></p>
+<p>Un créateur de quête n'a pas à implémenter ces algorithmes. Au contraire, il peut se concentrer sur la définition de la logique du jeu. Le créateur, par des scripts Lua, décrit le comportement des ennemis, les interactions sur une carte de jeu (une <em>map</em>). Il peut aussi créer des menus, des animations, un HUD (informations à l'écran comme le nombre de vies de la partie en cours, l'équipement du héros...).</p>
+<p>Les deux parties (le moteur en C++ et les scripts en Lua) communiquent grâce à l'API Lua de Solarus. La communication fonctionne dans les deux sens : le créateur de quête peut appeler des fonctions du moteur (par exemple : déplacer un personnage) et le moteur appellera les propres fonctions du créateur de quête (par exemple : être informé quand un ennemi est tué). </p>
+<p>Mais avant d'utiliser l'API Lua de Solarus, il faut apprendre les bases du Lua (un langage simple et minimal, mais très puissant). Les <a href="https://www.solarus-games.org/fr/development/tutorials/solarus-video-tutorial">tutoriels vidéos</a> sont un bon moyen pour débuter, expliquant étape par étape comment construire les éléments classiques : maps, menus, cinématiques, énigmes, donjons, ennemis, etc.  La <a href="https://www.solarus-games.org/doc/latest/">documentation de l'API Lua</a> de Solarus est là où vous devez chercher dès que vous avez une question sur l'utilisation de cette API.</p>
+<p>Vous avez vu les bases en lua ? Vous connaissez l'organisation d'ensemble d'une quête Solarus et les fonctions de l'éditeur de quête ? Vous pouvez désormais contribuer au développement du jeu icaRius, directement via <a href="https://git.lab.sspcloud.fr/funcamp-r/funcamp-r-icarius">le dépôt gitlab</a> avec le code source de la quête correspondante.</p>
+
+  <br>
+    
+
+    
+    
+      
+    
+
+  <div class="row wm-article-nav-buttons" role="navigation" aria-label="navigation">
+    
+    <div class="wm-article-nav pull-right">
+      <a href="../solution/" class="btn btn-xs btn-default pull-right">
+        Next
+        <i class="fa fa-chevron-right" aria-hidden="true"></i>
+      </a>
+      <a href="../solution/" class="btn btn-xs btn-link">
+        Solution complète
+      </a>
+    </div>
+    
+    <div class="wm-article-nav">
+      <a href="../contributeurs_2/" class="btn btn-xs btn-default pull-left">
+        <i class="fa fa-chevron-left" aria-hidden="true"></i>
+        Previous</a><a href="../contributeurs_2/" class="btn btn-xs btn-link">
+        le grimoire de tutoriels
+      </a>
+    </div>
+    
+  </div>
+
+    <br>
+</div>
+
+<footer class="container-fluid wm-page-content">
+  <p>Documentation built with <a href="http://www.mkdocs.org/">MkDocs</a> using <a href="https://github.com/gristlabs/mkdocs-windmill">Windmill</a> theme by Grist Labs.</p>
+</footer>
+
+</body>
+</html>

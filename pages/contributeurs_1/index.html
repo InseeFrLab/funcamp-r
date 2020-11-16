@@ -1,0 +1,145 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  
+  
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    
+    
+    
+    <link rel="shortcut icon" href="../../img/favicon.ico">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0" />
+    <title>Contribuer au développement - Funcamp R - une expérience vidéoludique d'apprentissage</title>
+    <link href="../../css/bootstrap-3.3.7.min.css" rel="stylesheet">
+    <link href="../../css/font-awesome-4.7.0.css" rel="stylesheet">
+    <link href="../../css/base.css" rel="stylesheet">
+    <link rel="stylesheet" href="../../css/highlight.css">
+    <!-- HTML5 shim and Respond.js IE8 support of HTML5 elements and media queries -->
+    <!--[if lt IE 9]>
+        <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
+        <script src="https://oss.maxcdn.com/libs/respond.js/1.3.0/respond.min.js"></script>
+    <![endif]-->
+
+    <script src="../../js/jquery-3.2.1.min.js"></script>
+    <script src="../../js/bootstrap-3.3.7.min.js"></script>
+    <script src="../../js/highlight.pack.js"></script>
+    
+    <base target="_top">
+    <script>
+      var base_url = '../..';
+      var is_top_frame = false;
+        
+        var pageToc = [
+        ];
+
+    </script>
+    <script src="../../js/base.js"></script> 
+</head>
+
+<body>
+<script>
+if (is_top_frame) { $('body').addClass('wm-top-page'); }
+</script>
+
+
+
+<div class="container-fluid wm-page-content">
+  <a name="_top"></a>
+    
+
+    
+    
+      
+    
+
+  <div class="row wm-article-nav-buttons" role="navigation" aria-label="navigation">
+    
+    <div class="wm-article-nav pull-right">
+      <a href="../contributeurs_2/" class="btn btn-xs btn-default pull-right">
+        Next
+        <i class="fa fa-chevron-right" aria-hidden="true"></i>
+      </a>
+      <a href="../contributeurs_2/" class="btn btn-xs btn-link">
+        le grimoire de tutoriels
+      </a>
+    </div>
+    
+    <div class="wm-article-nav">
+      <a href="../formateurs_2/" class="btn btn-xs btn-default pull-left">
+        <i class="fa fa-chevron-left" aria-hidden="true"></i>
+        Previous</a><a href="../formateurs_2/" class="btn btn-xs btn-link">
+        Trame de formation
+      </a>
+    </div>
+    
+  </div>
+
+    
+
+    <h1>Espace pour les contributeurs au développement</h1>
+<p>A l'image des deux environnements qu'il propose aux joueurs/stagiaires avec le jeu icaRius d'une part et le grimoire IGoR d'autre part, le projet Funcamp-R comporte deux volets pour lesquels il est possible de contribuer :</p>
+<ul>
+<li>le code source du jeu icaRius, développé avec le moteur Solarus</li>
+<li>le code source des tutoriels R, regroupés sous la forme d'un package.</li>
+</ul>
+<p>Pour porter ces environnements en mode Cloud, chaque volet est par ailleurs orchestré par un système de containers docker : </p>
+<ul>
+<li>le jeu icaRius est empaquetté dans une image virtuelle d'un Ubuntu dans lequel le moteur de jeu Solarus a été pré-installé, puis est proposé en accès web via une interface Vnc</li>
+<li>le grimoire IGoR est empaquetté dans une image virtuelle d'un serveur R-Shiny, enrichi de l'ensemble des dépendances nécessaires pour faire fonctionner les tutoriels, en particulier les packages Learnr et Parsons.</li>
+</ul>
+<p>Enfin, le <a href="http://funcamp-r.pages.lab.sspcloud.fr/funcamp-r">site documentaire</a> que vous consultez actuellement est réalisé avec mkdocs et publié sous forme de pages Gitlab. </p>
+<p>Toutes les ressources sont structurées sous forme de dépôts dans le Gitlab proposé par la plateforme SSPCloud, à l'adresse <a href="https://git.lab.sspcloud.fr">https://git.lab.sspcloud.fr</a>. Y figurent les dépôts suivants :</p>
+<ul>
+<li>funcamp-r : site documentaire présentant le projet. </li>
+<li>funcamp-r-grimoire : le code-source pour le package R correspondant au grimoire avec l'ensemble des tutoriels. Ce package a été réalisé avec l'appui précieux et apprécié (au moins 50 rubis à la mode icarius) de la société ThinkR.</li>
+<li>funcamp-r-dock : système d'orchestration docker du package pour proposer de suivre en ligne les tutoriels. Ce dispositif a été réalisé avec l'expertise magique de la société ThinkR et de la division Innovation et instruction technique de l'Insee.</li>
+<li>funcamp-r-neverending : dernier chapitre du grimoire, correspondant à un environnement R-studio avec un projet associé, avec édition simplifié de Rmd (utilisation de xaringan). Ecrit avec la plume de la société ThinkR.</li>
+<li>funcamp-r-icarius : le code source du jeu, correspondant à une "quête" développée dans le moteur de jeu Solarus. </li>
+<li>funcamp-r-ubuntu-solarus : système d'orchestration docker du jeu pour proposer une expérience en mode Cloud. Ce dispositif a été réalisé avec l'aide inextinguible (&gt; 10 coeurs) de la division Innovation et instruction technique de l'Insee.</li>
+<li>funcamp-r-windows-solarus : mise à disposition du runner Solarus et de la quête icaRius, pour l'environnement Windows. Téléchargeable et installable en mode portable sur une clé USB</li>
+<li>funcamp-r-windows-grimoire-launcher : dispositif d'empaquettage de l'ensemble des ressources - vidéoludiques et pédagogiques - pour suivre le funcamp en mode portable,  en installant ces ressources sur une clé USB pour un poste windows. Un frontend est inclus pour permettre au stagiaire de lancer facilement chaque étape du funcamp.</li>
+</ul>
+<p>Vous souhaitez contribuer ? Proposer une amélioration ou correction sous forme d'issue ? Rendez-vous sur l'un des espaces concernés : 
+<img alt="image funcamp" src="../../images/repos.png" /></p>
+
+  <br>
+    
+
+    
+    
+      
+    
+
+  <div class="row wm-article-nav-buttons" role="navigation" aria-label="navigation">
+    
+    <div class="wm-article-nav pull-right">
+      <a href="../contributeurs_2/" class="btn btn-xs btn-default pull-right">
+        Next
+        <i class="fa fa-chevron-right" aria-hidden="true"></i>
+      </a>
+      <a href="../contributeurs_2/" class="btn btn-xs btn-link">
+        le grimoire de tutoriels
+      </a>
+    </div>
+    
+    <div class="wm-article-nav">
+      <a href="../formateurs_2/" class="btn btn-xs btn-default pull-left">
+        <i class="fa fa-chevron-left" aria-hidden="true"></i>
+        Previous</a><a href="../formateurs_2/" class="btn btn-xs btn-link">
+        Trame de formation
+      </a>
+    </div>
+    
+  </div>
+
+    <br>
+</div>
+
+<footer class="container-fluid wm-page-content">
+  <p>Documentation built with <a href="http://www.mkdocs.org/">MkDocs</a> using <a href="https://github.com/gristlabs/mkdocs-windmill">Windmill</a> theme by Grist Labs.</p>
+</footer>
+
+</body>
+</html>
