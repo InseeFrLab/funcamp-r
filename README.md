@@ -16,4 +16,4 @@ The R Funcamp project is split across several repositories:
 | [funcamp-r-icarius](https://github.com/InseeFrLab/funcamp-r-icarius) | Serious game (requires the [Solarus Game Engine](https://www.solarus-games.org/)) |
 | [funcamp-r-ubuntu-solarus](https://github.com/InseeFrLab/funcamp-r-ubuntu-solarus) | Docker image of `ubuntu-desktop-lxde-vnc` including the [Solarus Game Engine](https://www.solarus-games.org/) |
 | [funcamp-r-windows-solarus](https://github.com/InseeFrLab/funcamp-r-windows-solarus) | Zip archive to run the icaRius game on Windows |
-| [funcamp-r-windows-grimoire-launcher](https://github.com/InseeFrLab/funcamp-r-windows-grimoire-launcher) | Ressources to set up a local drive to run the game on Windows |
+| [funcamp-r-windows-grimoire-launcher](https://github.com/InseeFrLab/funcamp-r-windows-grimoire-launcher) | Ressources to set up a local drive with all the resources for Windows |
